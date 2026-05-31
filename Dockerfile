@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY BusTicketbooking.java .
 
-RUN javac BusTicketbooking.java
+RUN java BusTicketbooking.java
 
 CMD ["java", "BusTicketbooking"]
