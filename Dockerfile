@@ -1,3 +1,3 @@
-FROM eclipse-temurin:17-jdk-jammy
+FROM nginx
 WORKDIR /app
-COPY BusTicketbooking.java .
+COPY BusTicketbooking.html /usr/share/nginx/html/
